@@ -1,0 +1,21 @@
+# Data (OASIS Data Use Agreement: never commit)
+*.npz
+*.nii
+*.nii.gz
+*.img
+*.hdr
+oasis_cross-sectional*
+data/
+
+# Outputs that contain subject IDs or model weights
+outputs/splits/
+outputs/checkpoints/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.zip
+.DS_Store
